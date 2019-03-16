@@ -1,0 +1,24 @@
+.logo-image {
+    width: 5rem;
+    height: 10rem;
+    border-radius: 10%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.header-description {
+    line-height: 1.3em;
+}
+
+.card .card-header-imagefactory,
+.card.bg-imagefactory,
+.card.card-rotate.bg-imagefactory .front,
+.card.card-rotate.bg-imagefactory .back {
+    background: linear-gradient(60deg, #ee441c, #c02a07);
+}
