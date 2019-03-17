@@ -7,7 +7,6 @@
 }
 
 .header-title {
-    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -21,4 +20,45 @@
 .card.card-rotate.bg-imagefactory .front,
 .card.card-rotate.bg-imagefactory .back {
     background: linear-gradient(60deg, #ee441c, #c02a07);
+}
+
+.navbar-tabs-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-2 {
+    padding: 60px;
+}
+
+.header-filter .container {
+    margin-bottom: 70px;
+}
+
+.page-header .title {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    line-height: unset;
+}
+
+.header-description {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.page-header {
+    align-items: flex-end;
+}
+
+@media (max-width: 767px) {
+    .page-header {
+        display: flex;
+        justify-content: center;
+    }
+    .row {
+        justify-content: center !important;
+        text-align: center;
+    }
 }
