@@ -52,6 +52,15 @@
     align-items: flex-end;
 }
 
+.what-we-do {
+    font-size: 1.5rem;
+}
+
+.different-h1 {
+    font-size: 0.8rem;
+    line-height: 0.1rem;
+}
+
 @media (max-width: 767px) {
     .page-header {
         display: flex;
