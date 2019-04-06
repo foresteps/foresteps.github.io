@@ -61,6 +61,30 @@
     line-height: 0.1rem;
 }
 
+.btn.btn-bag {
+    font-size: 24px;
+    height: 70px;
+    min-width: 70px;
+    width: 70px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    line-height: 70px;
+}
+
+.btn-white {
+    color: #ffffff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: none;
+}
+
+.btn-white:hover {
+    color: #ffffff;
+    background-color: #edf0f1;
+    border-color: #edf0f1;
+}
+
 @media (max-width: 767px) {
     .page-header {
         display: flex;
